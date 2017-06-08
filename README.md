@@ -8,7 +8,7 @@ An ansible role to install kubectl (kubernetes ctl)
 Requirements
 ------------
 
-kubectl will be download, so ensure you have access internet
+kubectl will be downloaded from the internet, so ensure you have internet access. *curl* is used for it.
 
 Role Variables
 --------------

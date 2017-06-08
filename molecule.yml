@@ -6,7 +6,7 @@ driver:
 docker:
   containers:
       - name:  ubuntu
-        image: ubuntu
+        image: ubuntu-curl
         image_version: latest
         ansible_groups:
           - group1
