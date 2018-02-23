@@ -19,7 +19,3 @@
   file:
     path: "{{kubectl_conf.path.bin}}/kubectl-{{(kubectl_conf.version == 'latest')|ternary(latest_version.stdout,kubectl_conf.version)}}"
     mode: '0755'
-- name: 'Ensure ~/bin is in the PATH variable'
-  lineinfile:
-    dest: '~/.profile'
-    line: 'export PATH=~/bin/:$PATH'
